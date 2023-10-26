@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Durga Puja</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="preloader">
+      <div id="ptxt">Loading...</div>
+      <div id="insidePic" style="opacity: 0">
+        <img src="images/pujatitle.png" alt="" />
+      </div>
+      <img
+        id="firstC"
+        src="https://t4.ftcdn.net/jpg/06/12/07/95/360_F_612079574_YbqAB6bwfwLdKlJOfMwxhER3RUmWwvn4.jpg"
+        alt=""
+      />
+    </div>
+    <div class="main" id="container">
+      <img
+        id="maa"
+        src="https://www.freeiconspng.com/uploads/download-durga-wallpaper-23.png"
+        width="350"
+        alt="Download Durga Wallpaper"
+      />
+      <img
+        id="stairs"
+        src="https://static.vecteezy.com/system/resources/thumbnails/018/928/082/small/staircase-step-background-png.png"
+        alt=""
+      />
+
+      <img id="plat" src="images/wepik-export-202310210655441X0N.png" alt="" />
+      <img
+        src="https://freepngimg.com/thumb/saraswati/9-2-saraswati-png-hd.png"
+        alt=""
+        id="saraswatimaa"
+      />
+      <img id="kartick" src="images/PngItem_4790168.png" alt="" />
+      <div class="pillars">
+        <img id="p1" src="images/pngwing.com (1).png" alt="" />
+        <img id="p2" src="images/pngwing.com (1).png" alt="" />
+        <img id="p3" src="images/pngwing.com (1).png" alt="" />
+        <img id="p4" src="images/pngwing.com (1).png" alt="" />
+      </div>
+
+      <img
+        id="laxmi"
+        src="https://freepngimg.com/thumb/lakshmi/3-2-lakshmi-free-download-png.png"
+        alt=""
+      />
+      <img
+        id="ganesh"
+        src="https://www.godpng.com/uploads/png/vinayagar-png-images.png"
+        alt=""
+      />
+      <div class="buttons">
+        <button id="dhak">
+          <img
+            src="https://i.pinimg.com/originals/35/9c/72/359c726107540f3fc3d31b9271738956.png"
+            alt=""
+          />
+        </button>
+        <audio id="dhakplayer" loop>
+          <source src="sounds/pujor_dhak_ringtone.mp3" type="audio/mpeg" />
+        </audio>
+
+        <button
+          id="dhup"
+          onclick="
+        toggleDhup();
+        
+        "
+        >
+          <img src="images/dhoop.png" alt="Dhoop" />
+          <span> Dhoop </span>
+          <div class="cursor-follower" style="display: none">
+            <img src="images/dhoop.png" alt="Dhoop" />
+          </div>
+        </button>
+        <button
+          id="phul"
+          onclick="
+        toggleflower();
+        
+        "
+        >
+          <img
+            src="images/India_Festive_Plate_with_Flowers_PNG_Clipart.png"
+            alt="flowers"
+          />
+          <!-- <span> flowers </span> -->
+          <div class="cursor-follower2" style="display: none">
+            <img
+              src="images/India_Festive_Plate_with_Flowers_PNG_Clipart.png"
+              alt="flowers"
+            />
+          </div>
+        </button>
+        <button
+          id="ghanta"
+          onclick="
+        toggleghanta();
+        
+        "
+        >
+          <img src="images/ghanta.png" alt="ghanta" />
+          <!-- <span> flowers </span> -->
+          <div class="cursor-follower3" style="display: none">
+            <img id="shake" src="images/ghanta.png" alt="ghanta" />
+          </div>
+        </button>
+
+        <button id="sankha">
+          <img src="images/sankha.png" alt="" />
+        </button>
+        <audio id="sankhplayer">
+          <source src="sounds/ringtone-shankh-1101.mp3" type="audio/mpeg" />
+        </audio>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

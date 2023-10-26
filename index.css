@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://i.pinimg.com/originals/b7/d7/9b/b7d79b8a259d6f0192ee05e729ff2534.gif");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#maa{
+    position: fixed;
+    z-index: 12;
+    bottom: 28%;
+    left: 50%;
+    height: 48%;
+    width: auto;
+    transform: translate(-50%, -50%);
+    
+}
+#stairs{
+    position: fixed;
+    z-index: 13;
+    bottom: -30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 335px;
+    width: 250px;
+    
+}
+
+#plat{
+    position: fixed;
+    z-index: 10;
+    width: 100vw;
+    height: 24%;
+    left: 0%;
+    right: 0%;
+    top: 27%;
+    
+    
+
+}
+#saraswatimaa{
+    position: fixed;    
+    z-index: 18;
+    height: 40%;
+    
+    top: 10%;
+    right: 20%;
+}
+#kartick{
+    height: 44%;
+    position: fixed;
+    z-index: 12;
+    top: 3%;
+    right: 2%;
+}
+
+.pillars{
+    position: fixed;
+    z-index: 9;
+    height: 500px;
+    top: 50%
+}
+#p1{
+    height: 350px;
+position: fixed;
+left: 1%;
+}
+#p2{
+    position: fixed;
+    left: 20%;
+    height: 300px;
+}
+#p3{
+    position: fixed ;
+    right: 20%;
+    height: 300px;
+}
+#p4{
+position: fixed;
+right: 1%;
+
+    height: 350px;
+}
+#laxmi{
+    position: fixed;
+    height: 50%;
+    z-index: 12;
+    left: 15%
+}
+#ganesh{
+    height: 35%;
+    position: fixed;
+    z-index: 12;
+top: 12%;
+left: 5px;
+}
+.buttons{
+    position: fixed;
+    z-index: 200;
+}
+#dhak, #sankha{
+    color: red;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+#dhak img{
+    width: 100%;
+    object-position: center;
+    
+
+}
+
+#sankha img{
+width: 90%;
+
+
+}
+#dhup
+{
+    height: 55px;
+    width: 55px;
+    background-color: lightgoldenrodyellow;
+    border-radius: 50%;
+    
+}
+#phul, #ghanta
+{
+    height: 55px;
+    width: 55px;
+    background-color: lightgoldenrodyellow;
+    border-radius: 50%;
+    
+}
+
+#phul img{
+    height: 30%;
+    width: auto;
+
+}
+#dhup img{
+    height: 100%;
+    z-index: 19;
+}
+
+#ghanta img {
+    height: 70%;
+}
+
+
+
+.cursor-follower, .cursor-follower2, .cursor-follower3 {
+    position: fixed;
+    pointer-events: none;
+    
+    width: 40%; /* Adjust the width of the follower as needed */
+    height: 40%; /* Adjust the height of the follower as needed */
+    transform: translate(-50%, -50%); /* Center the follower on the cursor */
+}
+
+
+
+#dhup span{
+color: black;
+text-shadow: 0 0 10px orangered ;
+font-family: 'Times New Roman', Times, serif;
+font-weight: bold;
+
+z-index: 100;
+}
+#shake{
+
+animation: shake 0.3s linear infinite;
+
+
+}
+
+@keyframes shake{
+
+    0%{
+transform: rotate(10deg);
+    }
+    50%{
+transform: rotate(0deg);
+    }
+    100%{
+transform: rotate(-10deg);
+    }
+
+}
+button{
+    cursor: pointer;
+}
+
+
+
+.buttons{
+    display: grid;
+    grid-template-columns: auto auto;
+    position: fixed;
+    width: 700px;
+    bottom: 13%;
+    margin-left: 34%;
+    row-gap: 20px;
+}
+
+.preloader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: all 2s ease;
+    z-index: 99009;
+    /* display: none; */
+}
+#firstC{
+    height: 100vh;
+    width: 100vw;
+}
+.preloader div{
+    z-index: 99999;
+    color: white;
+    text-align: center;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    transition: all 2s ease;
+    animation: colorC 4s alternate infinite;
+    font-style: italic;
+}
+@keyframes colorC {
+    0%{
+color: rgb(122, 255, 253);
+
+    }
+    50%{
+        color: lightgreen;
+    }
+    75%{
+        color: lightblue;
+    }
+    100%{
+        color: rgb(218, 240, 128);
+    }
+}
+
+#insidePic{
+    transition: all 2s ease;
+    z-index: 99999;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+}
+#insidePic img{
+    width: 100%;
+    filter: contrast(400%) brightness(170%) ;
+    filter: invert(7%);
+
+}
